@@ -1,0 +1,35 @@
+# ---- Keil / MDK 构建产物 ----
+OBJ/
+USER/build/
+USER/DebugConfig/
+*.uvguix.*
+JLinkSettings.ini
+*.map
+*.lst
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.lnp
+*.sct
+*.iex
+*.htm
+*.build_log.*
+
+# ---- EIDE / IDE ----
+.eide/
+USER/.eide/
+.vscode/
+.embeddedskills/
+
+# ---- Keil 器件包与 CMSIS（Keil 会自行下载）----
+USER/.pack/
+USER/.cmsis/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
